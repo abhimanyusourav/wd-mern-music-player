@@ -1,0 +1,44 @@
+.container {
+    border: 1px solid black;
+    width: 350px;
+    height: 500px;
+    border-radius: 40px;
+}
+
+img {
+    width: 350px;
+    height: 250px;
+    border-radius: 40px;
+}
+
+.fixedContainer {
+    border: 1px solid black;
+    height: 4px;
+    width: 100%;
+    background-color: black;
+}
+
+.movableContainer {
+    border: 1px solid goldenrod;
+    height: 4px;
+    width: 0%;
+    background-color: goldenrod;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 23px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+}
